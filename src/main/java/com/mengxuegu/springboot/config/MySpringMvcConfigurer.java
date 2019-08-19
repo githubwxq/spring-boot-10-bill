@@ -25,6 +25,7 @@ public class MySpringMvcConfigurer {
                 registry.addViewController("/").setViewName("main/login");
                 registry.addViewController("/index.html").setViewName("main/login");
                 registry.addViewController("/main.html").setViewName("main/index");
+                registry.addViewController("/1.html").setViewName("main/index");
             }
 
             @Override
